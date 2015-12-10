@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEEF19CB1C190B7400FAAEDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF19CA1C190B7400FAAEDB /* main.m */; };
+		EEEF19CE1C190B7400FAAEDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF19CD1C190B7400FAAEDB /* AppDelegate.m */; };
+		EEEF19D11C190B7400FAAEDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF19D01C190B7400FAAEDB /* ViewController.m */; };
+		EEEF19D41C190B7400FAAEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEF19D21C190B7400FAAEDB /* Main.storyboard */; };
+		EEEF19D61C190B7400FAAEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEF19D51C190B7400FAAEDB /* Assets.xcassets */; };
+		EEEF19D91C190B7400FAAEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEF19D71C190B7400FAAEDB /* LaunchScreen.storyboard */; };
+		EEEF19E41C190B7400FAAEDB /* PureLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF19E31C190B7400FAAEDB /* PureLayoutDemoTests.m */; };
+		EEEF19EF1C190B7400FAAEDB /* PureLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF19EE1C190B7400FAAEDB /* PureLayoutDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEEF19E01C190B7400FAAEDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEEF19BE1C190B7400FAAEDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEF19C51C190B7400FAAEDB;
+			remoteInfo = PureLayoutDemo;
+		};
+		EEEF19EB1C190B7400FAAEDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEEF19BE1C190B7400FAAEDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEF19C51C190B7400FAAEDB;
+			remoteInfo = PureLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEEF19C61C190B7400FAAEDB /* PureLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEF19CA1C190B7400FAAEDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEEF19CC1C190B7400FAAEDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEEF19CD1C190B7400FAAEDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEEF19CF1C190B7400FAAEDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEEF19D01C190B7400FAAEDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEEF19D31C190B7400FAAEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEEF19D51C190B7400FAAEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEEF19D81C190B7400FAAEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEEF19DA1C190B7400FAAEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEF19DF1C190B7400FAAEDB /* PureLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEF19E31C190B7400FAAEDB /* PureLayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PureLayoutDemoTests.m; sourceTree = "<group>"; };
+		EEEF19E51C190B7400FAAEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEF19EA1C190B7400FAAEDB /* PureLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEF19EE1C190B7400FAAEDB /* PureLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PureLayoutDemoUITests.m; sourceTree = "<group>"; };
+		EEEF19F01C190B7400FAAEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEF19C31C190B7400FAAEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF19DC1C190B7400FAAEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF19E71C190B7400FAAEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEF19BD1C190B7400FAAEDB = {
+			isa = PBXGroup;
+			children = (
+				EEEF19C81C190B7400FAAEDB /* PureLayoutDemo */,
+				EEEF19E21C190B7400FAAEDB /* PureLayoutDemoTests */,
+				EEEF19ED1C190B7400FAAEDB /* PureLayoutDemoUITests */,
+				EEEF19C71C190B7400FAAEDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEF19C71C190B7400FAAEDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF19C61C190B7400FAAEDB /* PureLayoutDemo.app */,
+				EEEF19DF1C190B7400FAAEDB /* PureLayoutDemoTests.xctest */,
+				EEEF19EA1C190B7400FAAEDB /* PureLayoutDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEF19C81C190B7400FAAEDB /* PureLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF19CC1C190B7400FAAEDB /* AppDelegate.h */,
+				EEEF19CD1C190B7400FAAEDB /* AppDelegate.m */,
+				EEEF19CF1C190B7400FAAEDB /* ViewController.h */,
+				EEEF19D01C190B7400FAAEDB /* ViewController.m */,
+				EEEF19D21C190B7400FAAEDB /* Main.storyboard */,
+				EEEF19D51C190B7400FAAEDB /* Assets.xcassets */,
+				EEEF19D71C190B7400FAAEDB /* LaunchScreen.storyboard */,
+				EEEF19DA1C190B7400FAAEDB /* Info.plist */,
+				EEEF19C91C190B7400FAAEDB /* Supporting Files */,
+			);
+			path = PureLayoutDemo;
+			sourceTree = "<group>";
+		};
+		EEEF19C91C190B7400FAAEDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF19CA1C190B7400FAAEDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEEF19E21C190B7400FAAEDB /* PureLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF19E31C190B7400FAAEDB /* PureLayoutDemoTests.m */,
+				EEEF19E51C190B7400FAAEDB /* Info.plist */,
+			);
+			path = PureLayoutDemoTests;
+			sourceTree = "<group>";
+		};
+		EEEF19ED1C190B7400FAAEDB /* PureLayoutDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF19EE1C190B7400FAAEDB /* PureLayoutDemoUITests.m */,
+				EEEF19F01C190B7400FAAEDB /* Info.plist */,
+			);
+			path = PureLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEF19C51C190B7400FAAEDB /* PureLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEF19F31C190B7400FAAEDB /* Build configuration list for PBXNativeTarget "PureLayoutDemo" */;
+			buildPhases = (
+				EEEF19C21C190B7400FAAEDB /* Sources */,
+				EEEF19C31C190B7400FAAEDB /* Frameworks */,
+				EEEF19C41C190B7400FAAEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayoutDemo;
+			productName = PureLayoutDemo;
+			productReference = EEEF19C61C190B7400FAAEDB /* PureLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEEF19DE1C190B7400FAAEDB /* PureLayoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEF19F61C190B7400FAAEDB /* Build configuration list for PBXNativeTarget "PureLayoutDemoTests" */;
+			buildPhases = (
+				EEEF19DB1C190B7400FAAEDB /* Sources */,
+				EEEF19DC1C190B7400FAAEDB /* Frameworks */,
+				EEEF19DD1C190B7400FAAEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEF19E11C190B7400FAAEDB /* PBXTargetDependency */,
+			);
+			name = PureLayoutDemoTests;
+			productName = PureLayoutDemoTests;
+			productReference = EEEF19DF1C190B7400FAAEDB /* PureLayoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEEF19E91C190B7400FAAEDB /* PureLayoutDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEF19F91C190B7400FAAEDB /* Build configuration list for PBXNativeTarget "PureLayoutDemoUITests" */;
+			buildPhases = (
+				EEEF19E61C190B7400FAAEDB /* Sources */,
+				EEEF19E71C190B7400FAAEDB /* Frameworks */,
+				EEEF19E81C190B7400FAAEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEF19EC1C190B7400FAAEDB /* PBXTargetDependency */,
+			);
+			name = PureLayoutDemoUITests;
+			productName = PureLayoutDemoUITests;
+			productReference = EEEF19EA1C190B7400FAAEDB /* PureLayoutDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEF19BE1C190B7400FAAEDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Haiyang Jiang";
+				TargetAttributes = {
+					EEEF19C51C190B7400FAAEDB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EEEF19DE1C190B7400FAAEDB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EEEF19C51C190B7400FAAEDB;
+					};
+					EEEF19E91C190B7400FAAEDB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EEEF19C51C190B7400FAAEDB;
+					};
+				};
+			};
+			buildConfigurationList = EEEF19C11C190B7400FAAEDB /* Build configuration list for PBXProject "PureLayoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEEF19BD1C190B7400FAAEDB;
+			productRefGroup = EEEF19C71C190B7400FAAEDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEF19C51C190B7400FAAEDB /* PureLayoutDemo */,
+				EEEF19DE1C190B7400FAAEDB /* PureLayoutDemoTests */,
+				EEEF19E91C190B7400FAAEDB /* PureLayoutDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEF19C41C190B7400FAAEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF19D91C190B7400FAAEDB /* LaunchScreen.storyboard in Resources */,
+				EEEF19D61C190B7400FAAEDB /* Assets.xcassets in Resources */,
+				EEEF19D41C190B7400FAAEDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF19DD1C190B7400FAAEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF19E81C190B7400FAAEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEF19C21C190B7400FAAEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF19D11C190B7400FAAEDB /* ViewController.m in Sources */,
+				EEEF19CE1C190B7400FAAEDB /* AppDelegate.m in Sources */,
+				EEEF19CB1C190B7400FAAEDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF19DB1C190B7400FAAEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF19E41C190B7400FAAEDB /* PureLayoutDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEF19E61C190B7400FAAEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEF19EF1C190B7400FAAEDB /* PureLayoutDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEEF19E11C190B7400FAAEDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEF19C51C190B7400FAAEDB /* PureLayoutDemo */;
+			targetProxy = EEEF19E01C190B7400FAAEDB /* PBXContainerItemProxy */;
+		};
+		EEEF19EC1C190B7400FAAEDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEF19C51C190B7400FAAEDB /* PureLayoutDemo */;
+			targetProxy = EEEF19EB1C190B7400FAAEDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEEF19D21C190B7400FAAEDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEF19D31C190B7400FAAEDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEEF19D71C190B7400FAAEDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEF19D81C190B7400FAAEDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEEF19F11C190B7400FAAEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEEF19F21C190B7400FAAEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEEF19F41C190B7400FAAEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PureLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuniu.PureLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEEF19F51C190B7400FAAEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PureLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuniu.PureLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEEF19F71C190B7400FAAEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PureLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuniu.PureLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PureLayoutDemo.app/PureLayoutDemo";
+			};
+			name = Debug;
+		};
+		EEEF19F81C190B7400FAAEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PureLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuniu.PureLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PureLayoutDemo.app/PureLayoutDemo";
+			};
+			name = Release;
+		};
+		EEEF19FA1C190B7400FAAEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PureLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuniu.PureLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PureLayoutDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEEF19FB1C190B7400FAAEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PureLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tuniu.PureLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PureLayoutDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEF19C11C190B7400FAAEDB /* Build configuration list for PBXProject "PureLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEF19F11C190B7400FAAEDB /* Debug */,
+				EEEF19F21C190B7400FAAEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEF19F31C190B7400FAAEDB /* Build configuration list for PBXNativeTarget "PureLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEF19F41C190B7400FAAEDB /* Debug */,
+				EEEF19F51C190B7400FAAEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEEF19F61C190B7400FAAEDB /* Build configuration list for PBXNativeTarget "PureLayoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEF19F71C190B7400FAAEDB /* Debug */,
+				EEEF19F81C190B7400FAAEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEEF19F91C190B7400FAAEDB /* Build configuration list for PBXNativeTarget "PureLayoutDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEF19FA1C190B7400FAAEDB /* Debug */,
+				EEEF19FB1C190B7400FAAEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEF19BE1C190B7400FAAEDB /* Project object */;
+}
