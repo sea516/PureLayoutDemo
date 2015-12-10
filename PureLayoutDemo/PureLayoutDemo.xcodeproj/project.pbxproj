@@ -15,6 +15,9 @@
 		EEEF19D91C190B7400FAAEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEF19D71C190B7400FAAEDB /* LaunchScreen.storyboard */; };
 		EEEF19E41C190B7400FAAEDB /* PureLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF19E31C190B7400FAAEDB /* PureLayoutDemoTests.m */; };
 		EEEF19EF1C190B7400FAAEDB /* PureLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF19EE1C190B7400FAAEDB /* PureLayoutDemoUITests.m */; };
+		EEEF1AB81C1911C200FAAEDB /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1AB01C1911C200FAAEDB /* ALView+PureLayout.m */; };
+		EEEF1AB91C1911C200FAAEDB /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1AB21C1911C200FAAEDB /* NSArray+PureLayout.m */; };
+		EEEF1ABA1C1911C200FAAEDB /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1AB41C1911C200FAAEDB /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		EEEF19EA1C190B7400FAAEDB /* PureLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEF19EE1C190B7400FAAEDB /* PureLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PureLayoutDemoUITests.m; sourceTree = "<group>"; };
 		EEEF19F01C190B7400FAAEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEF1AAF1C1911C200FAAEDB /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		EEEF1AB01C1911C200FAAEDB /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		EEEF1AB11C1911C200FAAEDB /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		EEEF1AB21C1911C200FAAEDB /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		EEEF1AB31C1911C200FAAEDB /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		EEEF1AB41C1911C200FAAEDB /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		EEEF1AB51C1911C200FAAEDB /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		EEEF1AB61C1911C200FAAEDB /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		EEEF1AB71C1911C200FAAEDB /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		EEEF19C81C190B7400FAAEDB /* PureLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EEEF1AAE1C1911C200FAAEDB /* PureLayout */,
 				EEEF19CC1C190B7400FAAEDB /* AppDelegate.h */,
 				EEEF19CD1C190B7400FAAEDB /* AppDelegate.m */,
 				EEEF19CF1C190B7400FAAEDB /* ViewController.h */,
@@ -138,6 +151,22 @@
 				EEEF19F01C190B7400FAAEDB /* Info.plist */,
 			);
 			path = PureLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+		EEEF1AAE1C1911C200FAAEDB /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EEEF1AAF1C1911C200FAAEDB /* ALView+PureLayout.h */,
+				EEEF1AB01C1911C200FAAEDB /* ALView+PureLayout.m */,
+				EEEF1AB11C1911C200FAAEDB /* NSArray+PureLayout.h */,
+				EEEF1AB21C1911C200FAAEDB /* NSArray+PureLayout.m */,
+				EEEF1AB31C1911C200FAAEDB /* NSLayoutConstraint+PureLayout.h */,
+				EEEF1AB41C1911C200FAAEDB /* NSLayoutConstraint+PureLayout.m */,
+				EEEF1AB51C1911C200FAAEDB /* PureLayout+Internal.h */,
+				EEEF1AB61C1911C200FAAEDB /* PureLayout.h */,
+				EEEF1AB71C1911C200FAAEDB /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +254,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = EEEF19BD1C190B7400FAAEDB;
 			productRefGroup = EEEF19C71C190B7400FAAEDB /* Products */;
@@ -273,6 +303,9 @@
 				EEEF19D11C190B7400FAAEDB /* ViewController.m in Sources */,
 				EEEF19CE1C190B7400FAAEDB /* AppDelegate.m in Sources */,
 				EEEF19CB1C190B7400FAAEDB /* main.m in Sources */,
+				EEEF1AB81C1911C200FAAEDB /* ALView+PureLayout.m in Sources */,
+				EEEF1AB91C1911C200FAAEDB /* NSArray+PureLayout.m in Sources */,
+				EEEF1ABA1C1911C200FAAEDB /* NSLayoutConstraint+PureLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
